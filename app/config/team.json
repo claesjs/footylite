@@ -1,0 +1,21 @@
+{
+    "name": "",
+    "teamRating": 800,
+    "tactic": "N",
+    "playHard": false,
+    "oppPlayHardMod": 1.0,
+    "tacticsMod": 1.0,
+    "oppTacticsMod": 1.0,
+    "redCardChance": 0,
+    "penaltyChance": 0,
+    "redCardMod": 1.0,
+    "advantageMod": 1.0,
+    "match": {
+        "attacks": 0,
+        "goals": 0,
+        "penalties": 0,
+        "redCards": 0,
+        "actionLog": ""
+    },
+    "orders": []
+}

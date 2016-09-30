@@ -1,0 +1,49 @@
+{
+    "N": {
+        "name": "Normal",
+        "mod": 1.00
+    },
+    "D": {
+        "name": "Defensive",
+        "mod": 0.89,
+        "bonus": {
+            "L": {
+                "oppmod": 0.79
+            }
+        }
+    },
+    "A": {
+        "name": "Attacking",
+        "mod": 1.11
+    },
+    "C": {
+        "name": "Counter-Attack",
+        "mod": 0.94,
+        "bonus": {
+            "A": {
+                "oppmod": 0.79
+            },
+            "P": {
+                "oppmod": 0.79
+            }
+        }
+    },
+    "L": {
+        "name": "Longball",
+        "mod": 1.05,
+        "bonus": {
+            "C": {
+                "oppmod": 0.79
+            }
+        }
+    },
+    "P": {
+        "name": "Passing",
+        "mod": 1.00,
+        "bonus": {
+            "L": {
+                "oppmod": 0.79
+            }
+        }
+    }
+}
