@@ -3,14 +3,15 @@
     "version": "0.0.1",
     "description": "A simple football simulator",
     "author": "Claes <claesf@gmail.com>",
-},
-"main": "app/app.js",
-"repository": {
-    "type": "git",
-    "url": "https://github.com/clflo/footylite"
-},
-"dependencies": {
-    "colors": "1.1.2",
-    "jasmine": "2.3.1",
-    "seedrandom": "2.4.0"
+    "main": "app/app.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/clflo/footylite"
+    },
+    "dependencies": {
+        "colors": "1.1.2",
+        "jasmine": "2.3.1",
+        "seedrandom": "2.4.0"
+    },
+    "license": "MIT"
 }
