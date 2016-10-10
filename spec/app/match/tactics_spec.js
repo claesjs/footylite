@@ -15,11 +15,11 @@ describe('getTacticsMod', function () {
 
 describe('getBonusTacticsMod', function () {
     it('should return 0.89 for tactic L and opponent tactic C', function () {
-        expect(tactics.getBonusTacticsMod('L', 'C')).toEqual(0.89);
+        expect(tactics.getBonusTacticsMod('L', 'C')).toEqual(0.79);
     });
 
     it('should return 0.89 for tactic C and opponent tactic A', function () {
-        expect(tactics.getBonusTacticsMod('C', 'A')).toEqual(0.89);
+        expect(tactics.getBonusTacticsMod('C', 'A')).toEqual(0.79);
     });
 
     it('should return 1.00 for tactic N and opponent tactic A', function () {
