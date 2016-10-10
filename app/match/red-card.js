@@ -4,12 +4,14 @@ var random = require('../random.js');
 var actionLog = require('./action-log.js');
 
 var redCardMod = 0.81;
+var redCardChancePlayHard = 8.47953216374269; // (2.9 / 38) / 90 * 10000;
+var redCardChance = 1.7543859649122808; // (0.6 / 38) / 90 * 10000;
 
 exports.getRedCardChance = function (playHard) {
     if (playHard) {
-        return (2.9 / 38) / 90 * 10000;
+        return redCardChancePlayHard;
     } else {
-        return (0.6 / 38) / 90 * 10000;
+        return redCardChance;
     }
 }
 
