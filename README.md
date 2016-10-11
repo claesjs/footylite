@@ -40,6 +40,8 @@ There are two conditions:
 - **MIN**: Match minute.
 - **SCORE**: Difference in score.
 
+Conditions can be combined. Separate by comma (,).
+
 Examples:
 ```
 TACTIC A IF SCORE <= 0, MIN > 45
