@@ -42,7 +42,7 @@ There are two conditions:
 
 Examples:
 ```
-TACTIC A IF SCORE <= 0 AND MIN > 45
+TACTIC A IF SCORE <= 0, MIN > 45
 ```
 Change tactic to Attacking if you are trailing by 1 or more goals and the match minute is larger than 45.
 
